@@ -10,7 +10,7 @@ The app runs entirely locally, on your iOS device. It does not need a network co
     
 The app does not collect any data, period. 
 
-The user can access any file locally accesible on the system.
+The user can access any file locally accessible on the system.
 
 During the TestFlight phase, if the application crashes, a crash report can be sent to the developers. This crash report will contain information about what caused the crash (functions being called, values of variables). 
 
