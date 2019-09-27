@@ -54,6 +54,10 @@ features                                  :
     description                           : Download a file from Dropbox and view it right on your phone or iPad. A desktop level application in your pocket.
     fontawesome_icon_name                 : mobile-alt
 
+  - title                                 : Keyboard support
+    description                           : Navigate almost the entire UI by keyboard or toggle nearly every option.
+    fontawesome_icon_name                 : keyboard
+
   - title                                 : Many options
     description                           : Configure many things, like hexadecimal capitalization, spaces between bytes, and even the app icon.
     fontawesome_icon_name                 : list
