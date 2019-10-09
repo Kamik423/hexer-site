@@ -63,3 +63,30 @@ $drop-shadow: 	drop-shadow(0px 5px 10px rgba(#000, 0.1))
 	margin: 0;
 	padding: 0;
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color:  #000000;
+		color: #fff;
+	}
+
+	.featureText>h3 {
+	 	color: #fff !important;
+	}
+
+	.featureText>p {
+	 	color: #ddd !important;
+	}
+
+	.iconBack, .socialIconBack {
+		color: #222 !important;
+	}
+
+	.iconTop {
+		color: #0a5ffe !important;
+	}
+
+	.footerLinks a, a:link, a:hover, a:visited, a:active {
+		color: #0a5ffe;
+	} 
+}
