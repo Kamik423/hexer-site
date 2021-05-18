@@ -1,30 +1,30 @@
 #page title
-page_title                                : Hexer                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Hexer                                     # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1468880337                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : hexer-presskit.zip                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    : hexer-presskit.zip                        # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Hexer                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : An iOS/iPadOS Hexreader.
+app_description                           : "Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive, or your desktop. Or you can just share any file to it."
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Hans Schülein                              
-your_link                                 :                   
-your_city                                 : Würzburg                                
+your_name                                 : Hans Schülein
+your_link                                 :
+your_city                                 : Würzburg
 email_address                             : contact.kamik423@gmail.com
-facebook_username                         :                                           
-instagram_username                        : 
+facebook_username                         :
+instagram_username                        :
 twitter_username                          : SherlockHans
 github_username                           : Kamik423
 youtube_username                          :
@@ -62,6 +62,14 @@ features                                  :
     description                           : Configure many things, like hexadecimal capitalization, spaces between bytes, and even the app icon.
     fontawesome_icon_name                 : list
 
+  - title                                 : Search
+    description                           : Search for hexadecimal, ASCII, or binary sequences.
+    fontawesome_icon_name                 : search
+
+  - title                                 : Analysis
+    description                           : Analyze byte frequencies, integer decoding, and file signatures.
+    fontawesome_icon_name                 : tachometer-alt-fast
+
   - title                                 : Indie developer
     description                           : Developed by a real person out of love. Many features yet to come.
     fontawesome_icon_name                 : user-circle
@@ -79,10 +87,10 @@ features                                  :
 # Theme Settings
 topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_title_color                        : "#000000"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
+cover_overlay_color                       : "#ffffff" # "#363b3d"
 cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
@@ -91,9 +99,9 @@ body_background_color                     : "#ffffff"
 
 link_color                                : "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color                           : "#000000"
+app_price_color                           : "#000000"
+app_description_color                     : "#000000"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
