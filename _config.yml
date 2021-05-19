@@ -22,7 +22,7 @@ enable_smart_app_banner                   : true                                
 your_name                                 : Hans Schülein
 your_link                                 :
 your_city                                 : Würzburg
-email_address                             : contact.kamik423@gmail.com
+email_address                             : hans@hexer.app
 facebook_username                         :
 instagram_username                        :
 twitter_username                          : SherlockHans
@@ -68,7 +68,7 @@ features                                  :
 
   - title                                 : Analysis
     description                           : Analyze byte frequencies, integer decoding, and file signatures.
-    fontawesome_icon_name                 : tachometer-alt-fast
+    fontawesome_icon_name                 : tachometer-alt
 
   - title                                 : Indie developer
     description                           : Developed by a real person out of love. Many features yet to come.
@@ -79,7 +79,7 @@ features                                  :
     fontawesome_icon_name                 : vial
 
   - title                                 : Direct contact
-    description                           : Contact me about feature request, bug reports, or just usage questions. <a href="mailto:contact.kamik423@gmail.com">Send me an email</a>!
+    description                           : Contact me about feature request, bug reports, or just usage questions. <a href="mailto:hans@hexer.app">Send me an email</a>!
     fontawesome_icon_name                 : envelope-open-text
 
 
