@@ -79,7 +79,7 @@ features                                  :
     fontawesome_icon_name                 : vial
 
   - title                                 : Direct contact
-    description                           : Contact me about feature request, bug reports, or just usage questions. <a href="mailto:hans@hexer.app">Send me an email</a>!
+    description                           : Contact me about feature request, bug reports, or just usage questions. Send me an email to <a href="mailto:hans@hexer.app">hans@hexer.app</a>!
     fontawesome_icon_name                 : envelope-open-text
 
 
