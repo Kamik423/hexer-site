@@ -1,0 +1,32 @@
+Hexer is a desktop level hex viewer packed with features. It was developed from the ground up for iOS and iPadOS. It is natural and intuitive to use for everyone. It is integrated with the Files app. So you can browse Dropbox, Google Drive, your git repositories, your downloads, your documents in iCloud Drive or your desktop. Or you can just share any file to it.
+
+Bytes are highlighted in different colors: Printable characters are cyan, spaces blue, null bytes grey, control characters pink and so on. The colors appear across the binary, hexadecimal, and ascii column — or can just be turned off completely.
+
+▶ Many advanced options
+• Many popular themes from text editors and terminals
+• Line numbers (offsets)
+• Overscroll
+• Complete control over the formatting of what you copy or share
+• Column counts in powers of two (8 bytes, 16, 32, ...) or in any number that fits
+• Interpret bytes as ASCII, ISO Latin 1 or EBCDIC
+• The UI is navigable by keyboard and there are keyboard shortcuts to toggle almost everything
+• Further features for you to discover
+
+▶ Search
+• Search for content in the hexadecimal, ASCII or binary column
+• Preview results with context and jump to and highlight them in the document
+• Filter results with Regular Expression and based on case sensitivity
+• Jump between results with arrow keys
+
+▶ Analysis
+• Get information about the selection or the entire document
+• Decode to integers
+• See byte frequencies
+• See detected file signatures (magic numbers)
+• Read metadata like creation date and Unix permissions
+
+▶ The App is made by a real person out of love
+When you buy the app (no hidden in app purchases) the money goes straight to me to support development. If you have any questions or feature requests you can just write me an email and let me know. I will continue development with many more planned features like editing.
+
+▶ The App is friendly
+There are no in app purchases, ads, tracking, nor is there any data collected. You buy it once and then use it. Nothing more. Nothing less.

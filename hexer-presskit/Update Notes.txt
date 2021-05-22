@@ -1,0 +1,44 @@
+This version brings new icons as well as many medium and small improvements including new features.
+
+Search Filters and Improvements:
+• Filter ASCII search with RegEx and select case sensitivity
+• Share search results
+• Select search results in the document
+
+Jump to Offset:
+• Jump to a given hexadecimal offset
+• Highlight the byte at the given index
+
+Codepages Support:
+• Select one of multiple codepages
+• Support for ASCII, ISO Latin, and EBCDIC
+• Select multiple syntax themes for each
+• Classic HexFiend and HexDump modes
+
+Metadata Information:
+• View metadata in analysis tab
+• Inspect UTI, creation date, modification date and Unix Permissions
+
+iPadOS Cursor Support:
+• Cursor snaps accurately to bytes
+• Cursor snaps to byte frequencies
+• Added secondary click options to many buttons
+
+Visual Improvements:
+• New app icons!
+• New “Shaded of Purple” theme
+• Alternating rows option
+• Indicate currently open sidebar
+• Change sidebar color to resemble iWork apps
+• Increase sidebar width
+• Removed sidebar slideover mode
+• Indicated byte in frequency grid
+• Changed some contrasts for accessibility
+• Linked new website and mail
+• Further small design tweaks
+
+Bug Fixes and Improvements:
+• Removed a bunch of crashes and memory leaks
+• Improved performance when scrolling and resizing in a variety of ways
+• Restored ability to launch on M1 Macs
+• Decreased app size

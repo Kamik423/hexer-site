@@ -1,65 +1,114 @@
 ---
 layout: page
-title: What's New
+title: Changelog
 include_in_header: true
 ---
 
-# Changelog
-Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the _pages directory. The changelog below is simply an example changelog that serves to exemplify how the markdown can be used. You can be as creative as you want with the markdown.
+# Release 2
 
-<br>
+## 2.1
 
-### `Latest`
-# **Version 2.0**
-This is the first update to our app. Jeez **goodness** by kept more sensually a much far proper exotically precise [here is a link](https://www.google.com) and and illicit hey uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
+Search Filters and Improvements:
+* Filter ASCII search with RegEx and select case sensitivity
+* Share search results
+* Select search results in the document
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
+Jump to Offset:
+* Jump to a given hexadecimal offset
+* Highlight the byte at the given index
 
-#### Bug Fixes
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
+Codepages Support:
+* Select one of multiple codepages
+* Support for ASCII, ISO Latin, and EBCDIC
+* Select multiple syntax themes for each
+* Classic HexFiend and HexDump modes
 
-<br>
+Metadata Information:
+* View metadata in analysis tab
+* Inspect UTI, creation date, modification date and Unix Permissions
 
-### **Version 2.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+iPadOS Cursor Support:
+* Cursor snaps accurately to bytes
+* Cursor snaps to byte frequencies
+* Added secondary click options to many buttons
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+Visual Improvements:
+* New app icons!
+* New “Shaded of Purple” theme
+* Alternating rows option
+* Indicate currently open sidebar
+* Change sidebar color to resemble iWork apps
+* Increase sidebar width
+* Removed sidebar slideover mode
+* Indicated byte in frequency grid
+* Changed some contrasts for accessibility
+* Linked new website and mail
+* Further small design tweaks
 
-<br>
+Bug Fixes and Improvements:
+* Removed a bunch of crashes and memory leaks
+* Improved performance when scrolling and resizing in a variety of ways
+* Restored ability to launch on M1 Macs
+* Decreased app size
 
-________
-<br>
+## 2.0
 
-### `Initial Release`
-# **Version 1.0**
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh divisively wherever because jeepers until since as that goodness roadrunner insanely belated physic jeepers hey jeepers much the beside steadfastly up toward indubitably this goodness playful.
+Large scale changes to the entire app:
 
-<br>
+User Interface Overhaul:
+* Modernized and native-ized user interface
+* Toggle a sidebar in different modes next to or over the document depending on context
+* Sidebar can be toggled using navigation bar buttons, keyboard shortcuts, and sideswipes
+* Navigation bar and sidebar will use light or dark theme depending on the syntax theme being light or dark
+* Added custom tint color
+* Added support for multiple windows
 
-## **Version 1.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+Search:
+* Added search mode to sidebar
+* Search for content in the hexadecimal, ASCII, or binary column
+* Preview results with context and jump to and highlight them in the document
+* Jump between results with arrow keys
+* Search results are limited to the first 1000 hits to increase performance
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+Analysis:
+* Added analysis mode to sidebar
+* Get information about the selection or the entire document
+* Decode to integers
+* See byte frequencies
+* See detected file signatures (magic numbers)
 
-<br>
+Significant Performance Improvements:
+* Document load times and scrolling performance is drastically increased
+* Fixed crashes during (too fast) scrolling
+* Fixed crashes during pinch-to-zoom
+* Fixed crashes during opening documents
+* Fixed crashes when putting the app into background
 
-## Version 1.0.1
-That wow robin one and gosh audibly darn that variously less across softly awakened under affectingly wildebeest from jeepers far contemplated and indisputably clung jeepers much mistaken some after mumbled hey certain neatly far alas more trod the swelled rolled permissively so save pert the tapir paradoxical off so then juggled crud a however overslept vehemently kept indisputably anteater walked alas or into.
+Misc Additions and Changes:
+* Unified column reorder and hiding menu
+* Mono Green themes split into light and dark
+* Mono Green themes and corresponding icon changed to use app tint (solarized) green
+* Options now show keyboard shortcuts next to them on iPad
+* About screen shows version number
+* Added changelog to the app
+* Added symbols for newline (\n, 0x0a) and tab (\t, 0x09) characters
+* Moved easter egg
+* Changed the way the outer background is colored
+* Rounded corners in secondary selection
+* Removed little endian option due to backend changes
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+Misc Fixes and Improvements:
+* Better support of Dynamic Text (Accessibility font size)
+* Text rendering should be slightly sharper
+* Improved scroll position after rotating or resizing
+* The document no longer appears scrolled after opening on some devices
+* The document browser no longer appears to rotate when opening a document
+* Open from share sheet works reliably
+* Slightly tweaked about screen order and icons
+* Rudimentary cursor support for theme and app icon buttons
 
-#### Bug Fixes
-- Improved user sign up experience.
-- Unlike deliberately zebra hen oh jeez understandable. Alas and quit oh snooty unlike deliberately.
+# Release 1
 
-<br>
+## 1.0
+
+* Initial release!
